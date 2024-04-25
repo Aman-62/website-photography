@@ -112,7 +112,13 @@ select {
 }
 
 /* HEADER */
-
+.navbar {
+  position: relative;
+  z-index: 100;
+}
+.offcanvas {
+  /* z-index: 101; */
+}
 .primary-header .logo {
   font-family: var(--ff-secondary);
   color: var(--clr-primary-400);
