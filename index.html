@@ -15,72 +15,74 @@
   </head>
   <body>
     <header class="primary-header">
-      <nav class="navbar navbar-expand-md z-2">
-        <div class="container">
-          <a class="navbar-brand text-light" href="#">DINESHGAHLOT</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            data-bs-theme="dark"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Offcanvas
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
+      <section class="">
+        <nav
+          class="primary-navbar | navbar w-100 position-absolute navbar-expand-md z-2"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              data-bs-theme="dark"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title">LOGO</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                    >
+                      Portfolio
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
@@ -121,11 +123,10 @@
               </li>
             </ul>
           </div> -->
-        </div>
-      </nav>
+          </div>
+        </nav>
 
-      <!-- Hero Section -->
-      <section class="position-absolute top-0 start-0">
+        <!-- Hero Section -->
         <div
           id="carouselExample"
           class="carousel slide carousel-fade"
@@ -139,7 +140,7 @@
                 style="width: 100vw; object-fit: cover; object-position: center"
                 alt="..."
               />
-              <div class="carousel-caption" style="top: 6rem">
+              <div class="carousel-caption w-100">
                 <h1 class="display-4 text-dark">
                   Photography for <br />Adventurous Souls & <br />Rebels At
                   Heart
@@ -162,11 +163,15 @@
                 "
                 alt="..."
               />
-              <div class="carousel-caption" style="top: 6rem">
-                <h1 class="display-3 text-light">
+              <div class="carousel-caption w-100">
+                <h1 class="display-4 text-light">
                   Photography for <br />Adventurous Souls & <br />Rebels At
                   Heart
                 </h1>
+                <p class="lead text-light">
+                  Travel Photography agency based in Delhi, IN. <br />We capture
+                  moments that turn into memories forever
+                </p>
               </div>
             </div>
           </div>
@@ -192,7 +197,7 @@
       </section>
     </header>
 
-    <main style="margin-top: 100vh">
+    <main style="">
       <section class="about-section">
         <div class="container">
           <div class="about-header">
@@ -203,6 +208,13 @@
                 <span class="about-heading-3">string</span>
               </span>
             </h1>
+            <p>
+              Welcome to our wedding website! We are thrilled to share our love
+              story and wedding details with you. We hope this site will serve
+              as a helpful resource as you join us in celebrating our special
+              day. We met in college, where we instantly connected over our
+              shared love for adventure and exploring new places.
+            </p>
           </div>
           <div class="parent">
             <div class="div1">
@@ -218,78 +230,9 @@
         </div>
       </section>
 
-      <section class="testimonial-section">
-        <div class="row testimonial-row">
-          <div class="col-12 col-md-6 testimonial-col">
-            <div id="testimonial" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">ONE</div>
-                <div class="carousel-item">TWO</div>
-                <div class="carousel-item">THREE</div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#testimonial"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#testimonial"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 testimonial-col">
-            <div id="testimonial" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">ONE</div>
-                <div class="carousel-item">TWO</div>
-                <div class="carousel-item">THREE</div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#testimonial"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#testimonial"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section class="testimonial-section"></section>
 
-      <section>
+      <section class="grid-section">
         <div class="container grid-container">
           <div class="gallery-row">
             <div class="gallery-column gallery-column-1">
@@ -328,5 +271,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./javascript.js"></script>
   </body>
 </html>
